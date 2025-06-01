@@ -1,0 +1,13 @@
+.music-button {
+    position: relative;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+.play{
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: blue;
+}
