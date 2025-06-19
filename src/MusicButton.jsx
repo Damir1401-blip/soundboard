@@ -29,7 +29,7 @@ function MusicButton(props) {
 
     return (
         <div className="music-button">
-            <img width="150" height="150" src={props.img} alt="Music" /> <br />
+            <img width="150" height="150" src={props.img} alt={props.alt} /> <br />
             <button
                 className="play"
                 ref={buttonRef}
